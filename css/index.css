@@ -1,0 +1,109 @@
+h1{
+text-align: center;
+font-family: 'Cinzel', serif;
+font-size: 4em;
+text-shadow: 2px 2px #bf360c;
+
+}
+.image{
+  position: relative;
+  width: 500px;
+  height: 600px;
+  margin: auto;
+  background-image:linear-gradient(to right, rgba(255, 138, 80, 0.5), rgba(196, 28, 0, 0.6) ),url("../images/pictures/myPic3.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+
+}
+.comment1{
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  left: 3%;
+  text-align: left;
+  color: white;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+.comment2{
+  position: absolute;
+  width: 50%;
+  bottom: 8%;
+  left: 45%;
+  text-align: right;
+  color: white;
+  font-weight: 450;
+  font-size: 1.3em;
+}
+
+li{
+  background-color: #bf360c;
+
+}
+li a:hover {
+  background-color: #f9683a;
+}
+.nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+overflow: hidden;
+position: sticky;
+top: 5px;
+padding-right: 50px;
+padding-left: 200px;
+}
+.nav li {
+float:left;
+}
+.nav a {
+display:block;
+text-align:center;/*
+width:150px;  fixed width */
+text-decoration:none;
+padding: 12px 18px;
+
+
+}
+a{
+  color: white;
+}
+.container{
+  /*border: solid red;*/
+  width: 700px;
+  height: 800px;
+  margin: auto;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  box-shadow: 5px 10px #c41c00;
+  background-color: #ff8a50;
+  font-family: 'Maven Pro', sans-serif;
+
+}
+.footer{
+  border-width: thick;
+  width: 1000px;
+  height: 400px;
+  margin: auto;
+  padding-left: 10px;
+  padding-top: 1px;
+  background-color: #ff5722;
+  color: white;
+  font-family: 'Cinzel', serif;
+
+
+}
+.nav2{
+  font-weight: 400;
+  color: white;
+  display: inline;
+  overflow: hidden;
+
+}
+nav a{
+  text-decoration: none;
+}
+body{
+  background: linear-gradient(to bottom, #f0b7a1 0%,#8c3310 50%,#752201 51%,#bf6e4e 100%);
+}

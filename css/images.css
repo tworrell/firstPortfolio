@@ -1,0 +1,123 @@
+h1, h2{
+  text-align: center;
+}
+.container{
+
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-size: 100% 100%;
+
+}
+.inside{
+  width: 700px;
+ height: 700px;
+}
+img{width:100%; height: 100%;}
+
+b{
+  font-size: 1.6em;
+}
+
+.message{
+  position: absolute;
+  bottom: 15%;
+  width: 50%;
+  background-color: rgba(178,34,34,0.6);
+  padding: 12px;
+  color: lightgray;
+  left:20%;
+  text-align: left;
+  font-size: 1em;
+  border: 2px solid black;
+}
+.container2{
+
+    height: 700px;
+    width: 700px;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-size: 100% 100%;
+
+}
+.message2{
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  /*bottom: 10%;*/
+  width: 60%;
+  background-color: rgba(0,128,0,0.8);
+  padding: 12px;
+  color: white;
+  left:20%;
+  text-align: top left ;
+  font-size: 1em;
+  float: left;
+  box-shadow: 5px 10px  yellow;
+}
+a:link, a:visited {
+  background-color: rgb(66, 245, 242);
+  color: black;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1em;
+}
+.hilton{
+  position: relative;
+  width: 700px;
+  height: 700px;
+  margin: auto;
+  background-image:linear-gradient(to right, rgba(0,100,20,0.5), rgba(200,0,0,0.4) ),url("../images/pictures/hilton.jpg");
+  background-size: 100% 100%;
+  overflow: hidden;
+}
+h3{
+
+  position: absolute;
+  width: 80%;
+  top: 45%;
+  left: 10%;
+  text-align: center;
+  font-size: 2em;
+  color: white;
+
+}
+.comment1{
+  position: absolute;
+  width: 50%;
+  top: 0%;
+  left: 3%;
+  text-align: left;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+.comment2{
+  position: absolute;
+  width: 50%;
+  top: 15%;
+  left: 40%;
+  text-align: left;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+.comment3{
+  position: absolute;
+  width: 50%;
+  bottom: 10%;
+  left: 25%;
+  text-align: right;
+  color: white;
+  font-weight: 400;
+  font-size: 1em;
+}
+nav a{
+  font-size: 1em;
+  text-decoration: none;
+}
